@@ -21,7 +21,7 @@ public class ProcesadorPlanillasTest {
 
 	ProveedorMiembrosPlanilla proveedor = Mockito.mock(ProveedorMiembrosPlanilla.class);
 
-	ProcesadorPlanillasEs procesador = new ProcesadorPlanillas(proveedor);
+	ProcesadorPlanillas procesador = new ProcesadorPlanillas(proveedor);
 
 	@Test
 	public void obtenerMontoTotalEscenarioExitosoTest() {
